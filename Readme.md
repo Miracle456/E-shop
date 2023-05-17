@@ -22,5 +22,5 @@
  1. ```git init``` (It initializes the git in local folder)
  2. ```git add .``` (Here we bundle up all the changes)
  3. ```git commit -m "(type in a message about what you changed/did)"```
-    (commit is a breakpoinnt on which we can come before)
+    (commit is a breakpoint on which we can come before)
  4. ```git push origin master``` (use to push the code to github)

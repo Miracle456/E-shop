@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <title>Canvas Art</title>
     <style>
-        .outer-box {
+            .outer-box {
             width: 100%;
             height: 100px;
             background-color: rgba(35, 35, 36, 0.72);
@@ -84,45 +80,33 @@
 
         }
 
-        .home {
-            width: 100%;
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+      .art-box {
+          width: 100%;
 
-        .home h1 {
-            font-size: 100px;
-            font-weight: bold;
-            font-family: fantasy;
-            color: seashell;
-        }
-        .home h2 {
-            font-size: 50px;
-            font-weight: bold;
-            font-family: fantasy;
-            margin-top: 0px;
-            color: seashell;
-        }
-        .home button{
-            padding: 10px 25px;
-            font-size: 20px;
-            border-radius: 6px;
-            background-color: rgb(140, 123, 238);
-            color: white;
-            border-color: white;
-            font-family: fantasy; 
-        }
-        .home button:hover{
-            background: white;
-            color: rgb(140, 123, 238);
-            border-color: rgb(140, 123, 238);
-            font-family: fantasy;
-        }
-        @media only screen and (max-width: 400px){
-            .outer-box {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+
+      .box {
+        width: 400px;
+        background:wheat;
+        margin: 25px 0px;
+        border-radius: 10px;
+        padding: 14px;
+      }
+      h1{
+          text-align: center;
+          color: white;
+          font-weight: bold;
+          font-family: fantasy;
+      }
+      .box img{
+          width: 100%;
+      }
+      @media only screen and (max-width: 400px){
+        .outer-box {
             width: 100%;
             height: auto;
             background-color: rgba(35, 35, 36, 0.72);
@@ -130,12 +114,7 @@
             flex-direction: column;
             justify-content: space-between;
         }
-        .home h1 {
-            font-size: 42px;
-            font-weight: bold;
-            font-family: fantasy;
-            color: seashell;
-        }
+       
         .right-box {
             display: flex;
             align-items: center;
@@ -154,10 +133,11 @@
             align-items: center;
             padding: 0%;
         }
-        }
+
+      }
+
     </style>
 </head>
-
 <body>
     <div class="outer-box">
         <div class="left-box">
@@ -181,12 +161,60 @@
             </ul>
         </div>
     </div>
-    <div class="home">
-        <h1>Welcome to GlobleGoods</h1>
-        <h2>Your Shopping Journey Starts here</h2>
-       <a href="./canvas-art.html"><button>Explore More</button></a>
+    <h1>Find Yourself Amazing Canvas Art</h1>
+    <div class="art-box">
+<div class="box">
+    <img src="./images/grow the good.png" alt="">
+    <div class="details"><h2>Grow The Good</h2>
+    <p>This is a wonderful peace of artwork made by Sruthi Munisifreddy. It also has beautiful vibrant shades of pink and it also includs the colors of yellow and purple. The message goes strate to the heart.
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+
+<div class="box">
+    <img src="./images/Time For A Little Coffee.png" alt="">
+    <div class="details"><h2>Time For Coffee</h2>
+    <p>This is a great peace of artwork for all the coffee lovers in the world. It would look great in a bedroom or in the kitchen. It was made by Sruthi Munisifreddy.
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/mcgill-library-y4PqRPqSako-unsplash.jpg" alt="">
+    <div class="details"><h2>Birds in a branch</h2>
+    <p> This is somthing that reminds us of the beautiful nature around us. The details are very intricate and the texture is lovley.
+    </p>
+    <h3>Price: $30</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/pexels-anni-roenkae-4175070.jpg" alt="">
+    <div class="details"><h2>Falling Feathers</h2>
+    <p> The colors in this peace of art are incredible. And the look is vibrant and hiper realistic.
+    </p>
+    <h3>Price: $15</h3></div>
+    
+     
+</div>
+<div class="box">
+    <img src="./images/painting-g2d5a27f05_1920.jpg" alt="">
+    <div class="details"><h2>Flowers</h2>
+    <p> This is a amazing peace of art with many vibrant colors. It would look great in you living room or if you have a room that you like to work in, I would look great.
+    </p>
+    <h3>Price: $35</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/pexels-pok-rie-1255372.jpg" alt="">
+    <div class="details"><h2>Earths Colors</h2>
+    <p> This paintind reminded the artist of the earth so it is noe caled "Earths Colors". The texture of the art is fanominal and the tints of the color is plesant.
+    </p>
+    <h3>Price: $45</h3></div>
+     
+</div>
+</div>
+
     </div>
-
 </body>
-
 </html>

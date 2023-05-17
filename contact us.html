@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <title>Contact Us</title>
     <style>
         .outer-box {
             width: 100%;
@@ -72,7 +70,7 @@
 
         .nav-link a:hover {
             background: white;
-            color:rgb(153, 151, 245);
+            color: rgb(153, 151, 245);
             border: 2px solid rgb(153, 151, 245);
         }
 
@@ -99,6 +97,7 @@
             font-family: fantasy;
             color: seashell;
         }
+
         .home h2 {
             font-size: 50px;
             font-weight: bold;
@@ -106,20 +105,62 @@
             margin-top: 0px;
             color: seashell;
         }
-        .home button{
+
+        .home button {
             padding: 10px 25px;
             font-size: 20px;
             border-radius: 6px;
             background-color: rgb(140, 123, 238);
             color: white;
             border-color: white;
-            font-family: fantasy; 
+            font-family: fantasy;
         }
-        .home button:hover{
+
+        .home button:hover {
             background: white;
             color: rgb(140, 123, 238);
             border-color: rgb(140, 123, 238);
             font-family: fantasy;
+        }
+        .contact{
+            width: 100%;
+            height: 88vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-box{
+            width: 450px;
+            height: 600px;
+            background-color: white;
+            padding: 40px;
+        }
+        h1{
+            text-align: center;
+        }
+        .input-box{
+            padding: 10px;
+        }
+        input{
+            padding:10px;
+            border:none
+        }
+        .input-cover{
+            border-bottom: 2px solid black;
+        }
+        .submit-btn{
+            padding: 6px 0px ;
+            border:none ;
+            border-radius: 10px;
+            width: 300px;
+            margin-top: 30px;
+            background-color:rgb(140, 123, 238);
+        }
+        .submit-wrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
         }
         @media only screen and (max-width: 400px){
             .outer-box {
@@ -130,12 +171,7 @@
             flex-direction: column;
             justify-content: space-between;
         }
-        .home h1 {
-            font-size: 42px;
-            font-weight: bold;
-            font-family: fantasy;
-            color: seashell;
-        }
+       
         .right-box {
             display: flex;
             align-items: center;
@@ -154,8 +190,20 @@
             align-items: center;
             padding: 0%;
         }
+        .contact-box{
+            width: 270px;
+            height: 600px;
+            background-color: white;
+            padding: 40px;
+        }
+        .input-box{
+            padding: 10px;
+            width: 100%;
+        }
         }
     </style>
+
+</head>
 </head>
 
 <body>
@@ -181,12 +229,22 @@
             </ul>
         </div>
     </div>
-    <div class="home">
-        <h1>Welcome to GlobleGoods</h1>
-        <h2>Your Shopping Journey Starts here</h2>
-       <a href="./canvas-art.html"><button>Explore More</button></a>
+    <div class="contact">
+        <div class="contact-box">
+           <u><h1>Contact Us</h1></u>
+            <h4>Name</h4>
+            <div class="input-cover"><i class="bi bi-person-circle"></i><input type="text" placeholder="type your name here"></div>
+            <h4>Email</h4>
+            <div class="input-cover"><i class="bi bi-envelope-at-fill"></i><input type="text" placeholder="type your email here"></div>
+            <h4>Please type your message here. We will be happy to hear you.</h4>
+            <textarea name="" id="" cols="53" rows="10" placeholder="Start typing here" class="input-box"></textarea>
+            <br>
+            <div class="submit-wrap">
+                <input type="submit" value="Submit" class="submit-btn">
+            </div>
+            
+        </div>
     </div>
-
 </body>
 
 </html>

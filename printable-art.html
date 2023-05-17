@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hurricane&display=swap" rel="stylesheet">
+    <title>Printable Art</title>
     <style>
-        .outer-box {
+            .outer-box {
             width: 100%;
             height: 100px;
             background-color: rgba(35, 35, 36, 0.72);
@@ -84,45 +80,33 @@
 
         }
 
-        .home {
-            width: 100%;
-            height: 80vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+      .art-box {
+          width: 100%;
 
-        .home h1 {
-            font-size: 100px;
-            font-weight: bold;
-            font-family: fantasy;
-            color: seashell;
-        }
-        .home h2 {
-            font-size: 50px;
-            font-weight: bold;
-            font-family: fantasy;
-            margin-top: 0px;
-            color: seashell;
-        }
-        .home button{
-            padding: 10px 25px;
-            font-size: 20px;
-            border-radius: 6px;
-            background-color: rgb(140, 123, 238);
-            color: white;
-            border-color: white;
-            font-family: fantasy; 
-        }
-        .home button:hover{
-            background: white;
-            color: rgb(140, 123, 238);
-            border-color: rgb(140, 123, 238);
-            font-family: fantasy;
-        }
-        @media only screen and (max-width: 400px){
-            .outer-box {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          flex-wrap: wrap;
+      }
+
+      .box {
+        width: 400px;
+        background:wheat;
+        margin: 25px 0px;
+        border-radius: 10px;
+        padding: 14px;
+      }
+      h1{
+          text-align: center;
+          color: white;
+          font-weight: bold;
+          font-family: fantasy;
+      }
+      .box img{
+          width: 100%;
+      }
+      @media only screen and (max-width:400px) {
+        .outer-box {
             width: 100%;
             height: auto;
             background-color: rgba(35, 35, 36, 0.72);
@@ -130,12 +114,7 @@
             flex-direction: column;
             justify-content: space-between;
         }
-        .home h1 {
-            font-size: 42px;
-            font-weight: bold;
-            font-family: fantasy;
-            color: seashell;
-        }
+
         .right-box {
             display: flex;
             align-items: center;
@@ -152,12 +131,12 @@
             width: 100%;
             justify-content: space-around;
             align-items: center;
-            padding: 0%;
+            padding-left: 0%;
         }
-        }
+      }
+
     </style>
 </head>
-
 <body>
     <div class="outer-box">
         <div class="left-box">
@@ -181,12 +160,60 @@
             </ul>
         </div>
     </div>
-    <div class="home">
-        <h1>Welcome to GlobleGoods</h1>
-        <h2>Your Shopping Journey Starts here</h2>
-       <a href="./canvas-art.html"><button>Explore More</button></a>
+    <h1>Find Yourself Amazing Printable Art</h1>
+    <div class="art-box">
+<div class="box">
+    <img src="./images/julie-blake-edison-JGF3OKMPNkM-unsplash.jpg" alt="">
+    <div class="details"><h2> Yellow flowers</h2>
+    <p> This is an amazing peace of art. It spotlights one flower in genaral and realy captures the image.
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+
+<div class="box">
+    <img src="./images/HOr8pW.jpeg" alt="">
+    <div class="details"><h2>Moorshmaoolows</h2>
+    <p> These are the most adorable marshmallows in the world. The faces were digitally made.
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/job584-v939-nunny-mix-07-artprints.jpeg" alt="">
+    <div class="details"><h2>Abstract hands whit a rose</h2>
+    <p> This is an amazing peace of art made of one line. The colors are beautiful and the art is abstract. 
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/5zVJRO.jpeg" alt="">
+    <div class="details"><h2>Flowers in a senary</h2>
+    <p> This is an amazing picture of flowers from a tree. the sheds of pink are very plesant.
+    </p>
+    <h3>Price: $25</h3></div>
+    
+     
+</div>
+<div class="box">
+    <img src="./images/552c3050b7ae940662d098d0eff1789d.jpeg" alt="">
+    <div class="details"><h2>Wild and free</h2>
+    <p> This art work reminds people of the nature around them and the grean and yellow realr stand out. 
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+<div class="box">
+    <img src="./images/rm197batch7-nunny-06-wallart.jpeg" alt="">
+    <div class="details"><h2>Circles</h2>
+    <p> This is an intresting art work peace made from dots and line  to make circles. The color is plesant.
+    </p>
+    <h3>Price: $25</h3></div>
+     
+</div>
+</div>
+
     </div>
-
 </body>
-
 </html>
